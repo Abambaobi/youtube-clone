@@ -1,0 +1,326 @@
+      /* Styling for the first one */
+
+      img.image-1 {
+        width: 100%;
+      }
+
+       .paragraph-1 {
+        margin-top: 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 22px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      div.div-1 {
+        cursor: pointer;
+      }
+
+      div.icon-1-div {
+        display: inline-block;
+        width: 50px;
+        vertical-align: top;
+      }
+
+      div.paragraph-1-div {
+        display: inline-block;
+        width: 200px;
+      }
+
+      img.icon-1 {
+        width: 50px;
+        border-radius: 25px;
+        margin-top: 12px;
+      }
+
+      .paragraph-1-1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #606060;
+        margin-bottom: 0px;
+      }
+
+      /* Styling for the second one */
+
+      div.div-2 {
+        cursor: pointer;
+      }
+
+      img.image-2 {
+        width: 100%;
+      }
+
+      img.icon-2 {
+        width: 50px;
+        border-radius: 25px;
+      }
+
+      .paragraph-2-1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #606060;
+        margin-top: 0px;
+        line-height: 10px;
+      }
+
+      p.paragraph-2 {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 22px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      div.icon-2-div {
+        width: 50px;
+      }
+
+      div.paragraph-2-div {
+        width: 200px;
+        display: inline-block;
+      }
+      div.icon-2-div {
+        display: inline-block;
+        width: 50px;
+        vertical-align: top;
+        margin-top: 8px;
+      }
+
+      /* Style for the third one */
+
+      div.div-3 {
+        cursor: pointer;
+      }
+
+      img.image-3 {
+        width: 100%;
+      }
+
+      div.icon-3-div {
+        width: 50px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 8px;
+      }
+
+      img.icon-3-div {
+        vertical-align: top;
+      }
+
+      img.icon-3 {
+        width: 50px;
+        border-radius: 25px;
+      }
+
+      div.paragraph-3-div {
+        display: inline-block;
+        width: 245px;
+      }
+
+      p.paragraph-3 {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 22px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .paragraph-3-1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #606060;
+        margin-top: 0px;
+        line-height: 10px;
+      }
+
+      /* Style for the forth one */
+
+      div.div-4 {
+        cursor: pointer;
+      }
+
+      img.image-4 {
+        width: 100%;
+      }
+
+      div.icon-4-div {
+        width: 50px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 8px;
+      }
+
+      img.icon-4-div {
+        vertical-align: top;
+      }
+
+      img.icon-4 {
+        width: 50px;
+        border-radius: 25px;
+      }
+
+      div.paragraph-4-div {
+        display: inline-block;
+        width: 245px;
+      }
+
+      p.paragraph-4 {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 22px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .paragraph-4-1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #606060;
+        margin-top: 0px;
+        line-height: 10px;
+      }
+
+      /* Style for the fifth one */
+
+      div.div-5 {
+        cursor: pointer;
+      }
+
+      img.image-5 {
+        width: 100%;
+      }
+
+      div.icon-5-div {
+        width: 50px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 8px;
+      }
+
+      img.icon-5-div {
+        vertical-align: top;
+      }
+
+      img.icon-5 {
+        width: 50px;
+        border-radius: 25px;
+      }
+
+      div.paragraph-5-div {
+        display: inline-block;
+        width: 245px;
+      }
+
+      p.paragraph-5 {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 22px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .paragraph-5-1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #606060;
+        margin-top: 0px;
+        line-height: 10px;
+      }
+
+      /* Style for the sixth one */
+
+      div.div-6 {
+        cursor: pointer;
+      }
+
+      img.image-6 {
+        width: 100%;
+      }
+
+      div.icon-6-div {
+        width: 50px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 8px;
+      }
+
+      img.icon-6-div {
+        vertical-align: top;
+      }
+
+      img.icon-6 {
+        width: 50px;
+        border-radius: 25px;
+      }
+
+      div.paragraph-6-div {
+        display: inline-block;
+        width: 245px;
+      }
+
+      p.paragraph-6 {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 22px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+
+      .paragraph-6-1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #606060;
+        margin-top: 0px;
+        line-height: 10px;
+      }
+
+      /* GRID styling */
+
+      div.GRID-DIV {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 27px;
+        row-gap: 20px;
+        border-width: 28px; 
+      }
+
+      /* making the grid responsive */
+
+      @media(max-width: 750px){
+        div.GRID-DIV{
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+
+      @media(max-width: 999px) and (min-width: 751px){
+        div.GRID-DIV{
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+      }
+
+      @media(min-width: 1000px){
+        .div.GRID-DIV{grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+    }
+      /* position styling */
+
+      #Position-relative, .Position-relative{
+        position: relative;
+      }
+
+      #Position-absolute, .Position-absolute{
+        position: absolute;
+        color: white;
+        font-size: 15px;
+        left: 85%;
+        right: 12px;
+        bottom: 11px;
+        background-color: black;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 0px;
+      }
+
+
+
+ 
+
+
+
+      

@@ -1,0 +1,38 @@
+ /* styling the side-bar */
+ div.Side-bar-div {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: space-between;
+    width: 72px;
+    height: 79%;
+    left: 0px;
+    top: 60px;
+    background-color: white;
+    padding-top: 27px;
+    z-index: 10;
+  }
+
+  .Home-icon,
+  .Explore-icon,
+  .Subscription-icon,
+  .Originals-icon,
+  .Youtube-music-icon,
+  .Library-icon {
+    width: 24px;
+    padding-left: 23px;
+  }
+
+  .Home:hover,
+  .Explore:hover,
+  .Subscription:hover,
+  .Originals:hover,
+  .Youtube-music:hover,
+  .Library:hover {
+    background-color: hsl(0, 0%, 89%);}
+
+  p.S {
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+  }

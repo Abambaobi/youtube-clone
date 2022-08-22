@@ -1,0 +1,11 @@
+body.body{
+    margin: none;
+    padding-top: 88px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: #f7f7f7;
+}
+
+a:link{
+    text-decoration: none;
+  }

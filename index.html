@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>YouTube-Clone</title>
+    <link rel="stylesheet" href="./Styles/general.css" />
+    <link rel="stylesheet" href="./Styles/Header.css" />
+    <link rel="stylesheet" href="./Styles/Sidebar.css" />
+    <link rel="stylesheet" href="./Styles/video.css" />
+  </head>
+
+  <body class="body">
+    <!-- Creating the Side-bar using flexbox -->
+    <div class="Side-bar-div">
+      <div class="Home">
+        <img class="Home-icon" src="./side=bar-icons/home.svg" alt="" />
+        <p class="S">Home</p>
+      </div>
+
+      <div class="Explore">
+        <img class="Explore-icon" src="./side=bar-icons/explore.svg" alt="" />
+        <p class="S">Explore</p>
+      </div>
+
+      <div class="Subscription">
+        <img
+          class="Subscription-icon"
+          src="./side=bar-icons/subscriptions.svg"
+          alt=""
+        />
+        <p class="S">Subscription</p>
+      </div>
+
+      <div class="Originals">
+        <img
+          class="Originals-icon"
+          src="./side=bar-icons/originals.svg"
+          alt=""
+        />
+        <p class="S">Originals</p>
+      </div>
+
+      <div class="Youtube-music">
+        <img
+          class="Youtube-music-icon"
+          src="./side=bar-icons/youtube-music.svg"
+          alt=""
+        />
+        <p class="S">YouTube Music</p>
+      </div>
+
+      <div class="Library">
+        <img class="Library-icon" src="./side=bar-icons/library.svg" alt="" />
+        <p class="S">Library</p>
+      </div>
+    </div>
+
+    <!-- creating the header using a Flex-box -->
+    <div class="flex-div">
+      <div class="start">
+        <img class="hamburger" src="./Header icons/hamburger.svg" alt="" />
+        <img class="youtube" src="./Header icons/youtube-logo.svg" alt="" />
+      </div>
+
+      <div class="center">
+        <input class="search-bar" type="text" placeholder="Search" />
+
+        <div class="relative-search">
+          <button class="search-button">
+            <img class="search-icon" src="./Header icons/search.svg" alt="" />
+          </button>
+          <div class="absolute-search">Search</div>
+        </div>
+
+        <div class="relative-search">
+          <button class="voice-search-button">
+            <img
+              class="voice-search-icon"
+              src="./Header icons/voice-search-icon.svg"
+              alt=""
+            />
+          </button>
+          <div class="absolute-search">Search with your voice</div>
+        </div>
+      </div>
+
+      <div class="end">
+        <div class="relative-search">
+          <img class="upload-video" src="./Header icons/upload.svg" alt="" />
+          <div class="absolute-search">Create</div>
+        </div>
+
+        <div class="relative-search">
+          <img
+            class="youtube-app"
+            src="./Header icons/youtube-apps.svg"
+            alt=""
+          />
+          <div class="absolute-search">YouTube apps</div>
+        </div>
+
+        <div class="relative-search">
+          <img
+            class="notification"
+            src="./Header icons/notifications.svg"
+            alt=""
+          />
+          <div class="absolute-search">Notifications</div>
+          <div class="notification-count">5</div>
+        </div>
+
+        <div class="channel-picture-div">
+          <img
+            class="channel-picture"
+            src="./Header icons/user-channel-picture.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="GRID-DIV">
+      <!-- Html for the first one -->
+
+      <div class="div-1">
+        <div id="Position-relative">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank"
+            ><img class="image-1" src="./Images/image-1.webp" alt="" />
+          </a>
+
+          <div id="Position-absolute">14:20</div>
+        </div>
+
+        <div>
+          <div class="icon-1-div">
+            <img class="icon-1" src="./Images/icon-1.jpeg" alt="" />
+          </div>
+
+          <div class="paragraph-1-div">
+            <a
+              href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+              target="_blank"
+            >
+              <p class="paragraph-1">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+            </a>
+            <p class="paragraph-1-1">Marques Brownlee</p>
+            <p class="paragraph-1-1">3.4M views · 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- html for the second one -->
+
+      <div class="div-2">
+        <div class="Position-relative">
+          <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk" target="_blank">
+            <img class="image-2" src="./Images/image-2.webp" alt="" />
+          </a>
+
+          <div class="Position-absolute">8:22</div>
+        </div>
+
+        <div>
+          <div class="icon-2-div">
+            <img class="icon-2" src="./Images/icon-2.jpeg" alt="" />
+          </div>
+
+          <div class="paragraph-2-div">
+            <a
+              href="https://www.youtube.com/watch?v=mP0RAo9SKZk"
+              target="_blank"
+            >
+              <p class="paragraph-2">Try Not To Laugh Challenge #9</p>
+            </a>
+
+            <p class="paragraph-2-1">Markiplier</p>
+            <p class="paragraph-2-1">19M views · 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Html for the third one -->
+
+      <div class="div-3">
+        <div class="Position-relative">
+          <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w" target="_blank">
+            <img class="image-3" src="./Images/image-3.webp" alt="" />
+          </a>
+
+          <div class="Position-absolute">9:13</div>
+        </div>
+
+        <div>
+          <div class="icon-3-div">
+            <img class="icon-3" src="./Images/icon-3.jpeg" alt="" />
+          </div>
+
+          <div class="paragraph-3-div">
+            <a
+              href="https://www.youtube.com/watch?v=FgjPQQeTh1w"
+              target="_blank"
+            >
+              <p class="paragraph-3">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+            </a>
+
+            <p class="paragraph-3-1">SSSniperWolf</p>
+            <p class="paragraph-3-1">12M views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Html for the forth one -->
+      <div class="div-4">
+        <div class="Position-relative">
+          <a href="https://www.youtube.com/watch?v=094y1Z2wpJg" target="_blank">
+            <img class="image-4" src="./Images/image-4.webp" alt="" />
+          </a>
+
+          <div class="Position-absolute">22:09</div>
+        </div>
+
+        <div>
+          <div class="icon-4-div">
+            <img class="icon-4" src="./Images/icon-4.jpeg" alt="" />
+          </div>
+
+          <div class="paragraph-4-div">
+            <a
+              href="https://www.youtube.com/watch?v=094y1Z2wpJg"
+              target="_blank"
+            >
+              <p class="paragraph-4">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+            </a>
+
+            <p class="paragraph-4-1">Veritasium</p>
+            <p class="paragraph-4-1">18M views · 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Html for the fifth one -->
+      <div class="div-5">
+        <div class="Position-relative">
+          <a href="https://www.youtube.com/watch?v=86CQq3pKSUw" target="_blank">
+            <img class="image-5" src="./Images/image-5.webp" alt="" />
+          </a>
+
+          <div class="Position-absolute">11:17</div>
+        </div>
+
+        <div>
+          <div class="icon-5-div">
+            <img class="icon-5" src="./Images/icon-5.jpeg" alt="" />
+          </div>
+
+          <div class="paragraph-5-div">
+            <a
+              href="https://www.youtube.com/watch?v=86CQq3pKSUw"
+              target="_blank"
+            >
+              <p class="paragraph-5">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+            </a>
+
+            <p class="paragraph-5-1">CS Dojo</p>
+            <p class="paragraph-5-1">519K views · 5 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Html for the sixth one -->
+      <div class="div-6">
+        <div class="Position-relative">
+          <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg" target="_blank">
+            <img class="image-6" src="./Images/image-6.webp" alt="" />
+          </a>
+
+          <div class="Position-absolute">19:59</div>
+        </div>
+
+        <div>
+          <div class="icon-6-div">
+            <img class="icon-6" src="./Images/icon-6.jpeg" alt="" />
+          </div>
+
+          <div class="paragraph-6-div">
+            <a
+              href="https://www.youtube.com/watch?v=yXWw0_UfSFg"
+              target="_blank"
+            >
+              <p class="paragraph-6">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+            </a>
+
+            <p class="paragraph-6-1">MrBeast</p>
+            <p class="paragraph-6-1">141M views · 1 year ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
